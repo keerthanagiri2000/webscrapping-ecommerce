@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 console.log(process.env.MONGO_URL);
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 const app = express();
 
 const url =
